@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
@@ -66,3 +67,6 @@ def predict_news(news_text):
 # Test the function with a custom input
 sample_news = input("Enter a news article: ")
 print("Prediction:", predict_news(sample_news))
+=======
+
+>>>>>>> 4c42a1caf35af7110028626d2838d8e76f1d7036
